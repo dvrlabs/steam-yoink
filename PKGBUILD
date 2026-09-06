@@ -1,7 +1,7 @@
 # Maintainer: DVR <dvrlabs@gmail.com>
 pkgname=steam-yoink-git
 _pkgname=steam-yoink
-pkgver=r5.940a961
+pkgver=r6.16c7346
 pkgrel=1
 pkgdesc="Lift a working non-Steam game out of Steam and run it standalone with umu"
 arch=('any')

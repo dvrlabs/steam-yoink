@@ -75,8 +75,7 @@ makepkg -sic
 
 `makepkg -sic` builds the package and pulls `python`, `pyside6`, and
 `umu-launcher` via pacman. The included `PKGBUILD` is a VCS (`-git`) build that
-tracks `main`; once you cut tagged releases you can switch it to a versioned
-source tarball with real checksums.
+tracks `main`;
 
 ### Any distro (run directly)
 
@@ -87,6 +86,12 @@ source tarball with real checksums.
 pip install --user PySide6
 
 python3 steam_yoink.py
+```
+
+## Uninstall
+
+```bash
+sudo pacman -Rns steam-yoink-git
 ```
 
 ## Usage
