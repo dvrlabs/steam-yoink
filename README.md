@@ -68,7 +68,7 @@ This tool is step 2. **Do step 1 in Steam first.**
 ### Arch Linux (PKGBUILD)
 
 ```bash
-git clone https://github.com/YOURUSER/steam-yoink.git
+git clone https://github.com/dvrlabs/steam-yoink.git
 cd steam-yoink
 makepkg -si
 ```
