@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=Steam Yoink
+GenericName=Non-Steam game exporter
+Comment=Lift a working non-Steam game out of Steam and run it standalone with umu
+Exec=steam-yoink
+Icon=steam-yoink
+Terminal=false
+Categories=Game;Utility;
+Keywords=steam;proton;umu;wine;prefix;launcher;
+StartupNotify=true
