@@ -70,7 +70,7 @@ This tool is step 2. **Do step 1 in Steam first.**
 ```bash
 git clone https://github.com/dvrlabs/steam-yoink.git
 cd steam-yoink
-makepkg -sic
+makepkg -sic && git clean -dfx
 ```
 
 `makepkg -sic` builds the package and pulls `python`, `pyside6`, and
