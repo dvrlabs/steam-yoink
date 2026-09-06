@@ -70,10 +70,10 @@ This tool is step 2. **Do step 1 in Steam first.**
 ```bash
 git clone https://github.com/dvrlabs/steam-yoink.git
 cd steam-yoink
-makepkg -si
+makepkg -sic
 ```
 
-`makepkg -si` builds the package and pulls `python`, `pyside6`, and
+`makepkg -sic` builds the package and pulls `python`, `pyside6`, and
 `umu-launcher` via pacman. The included `PKGBUILD` is a VCS (`-git`) build that
 tracks `main`; once you cut tagged releases you can switch it to a versioned
 source tarball with real checksums.
